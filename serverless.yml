@@ -1,5 +1,6 @@
 app: todo-list-serverless
 service: api-rest
+org: vdiazsan1975
 
 frameworkVersion: ">=1.1.0"
 
