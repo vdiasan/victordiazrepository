@@ -61,13 +61,13 @@ functions:
           method: delete
           cors: true
 
-   translate:
-     handler: todos/translate.translate
-     events:
-       - http:
-           path: todos/{id}/{language}
-           method: get
-           cors: true
+  translate:
+    handler: todos/translate.translate
+    events:
+      - http:
+          path: todos/{id}/{language}
+          method: get
+          cors: true
 
 resources:
   Resources:
